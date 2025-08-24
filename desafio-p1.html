@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com HTML - DIO</title>
+</head>
+<body>
+  <header>
+
+    <h1> <strong >Primeiros Passos com HTML: Entendendo as Principais Tags</strong> </h1>
+        <hr/>
+            <p> Da história da web às tags que dão vida às páginas</p>
+            <hr>
+  </header>
+
+
+    <nav>
+        <h2 id="menu">Menu de navegação</h2>
+            <ol>
+                <li><a href="#historia"><i><u>Um pouco de história</u></i></a></li>
+                <li><a href="#basica"><i><u>Estrutura básica de uma página</u></i></a></li>
+                <li><a href="#textos"><i><u>Trabalhando com textos</u></i></a></li>
+                <li><a href="#Imalinks"><i><u>Imagens e links</u></i></a></li>
+                <li><a href="#listas"><i><u>Listas</u></i></a></li>
+                <li><a href="#formularios"><i><u>Formulários</u></i></a></li>
+                <li><a href="#estrutura"><i><u>Estruturação e layout</u></i></a></li>
+                <li><a href="#midias"><i><u>Mídias integradas</u></i></a></li>
+                <li><a href="#semantica"><i><u>Semântica e acessibilidade</u></i></a></li>
+                <li><a href="#tabelas"><i><u>Tabelas</u></i></a></li>
+                <li><a href="#conclusao"><i><u>Conclusão</u></i></a></li>
+            </ol>
+
+    </nav>
+
+ <MAIN>
+    <section>
+        <h2 id="basica">Um pouco de história</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+
+            <p><strong>HTML (HyperText Markup Language)</strong> surgiu no início da década de 1990, criado por <strong>Tim Berners-Lee</strong>, o pai da World Wide Web.</p>
+
+            <p>A ideia era simples, mas revolucionária: permitir que documentos pudessem ser conectados por meio de links, formando uma rede de informações acessível de qualquer lugar do mundo.</p>
+
+            <p>Essa linguagem não é de programação, mas sim de <strong>marcação</strong>, responsável por dar estrutura e significado às páginas da web. Em outras palavras, é como o esqueleto de um site.</p>
+
+            <p>No HTML, podemos escrever elementos como <code>h<sub>1</sub></code> até <code>h<sub>6</sub></code> para definir títulos, e usar marcas como <code>sup</code> em "WWW<sup>TM</sup>" para indicar símbolos ou observações acima do texto.</p>
+
+
+        <blockquote>
+             “A Web não apenas conecta máquinas, ela conecta pessoas.”  
+           <br>— Tim Berners-Lee
+        </blockquote>
+
+    </section>
+    
+    <section>
+    <h2 id="basica">Estrutura básica de uma página</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+
+            <p> Toda página HTML segue uma base comum. A tag <code>&lt;html&gt;</code> envolve todo o conteúdo, e dentro dela encontramos duas partes principais:</p>
+                <ul>
+                    <li><strong>head</strong> → onde ficam informações invisíveis para o usuário, como o título da aba, links para estilos e metadados.</li>
+                    <li><strong>body</strong> → a parte visível, com textos, imagens, botões e todo o conteúdo exibido na tela.</li>
+                </ul>
+            <p>Essa divisão entre “cabeça” e “corpo” ajuda a organizar o documento e a separar configurações do conteúdo em si.</p>
+    </section>
+ 
+
+    <section>
+    <h2 id="textos">Trabalhando com textos</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+            <p>Textos são a base da maioria dos sites, e o HTML oferece diversas tags para formatá-los:</p>
+                <ul>
+                    <li><strong>Parágrafos</strong> → <code>p</code> define blocos de texto.</li>
+                    <li><strong>Títulos</strong> → de <code>h1</code> (mais importante) a <code>h6</code> (menos importante), organizam o conteúdo hierarquicamente.</li>
+                    <li><strong>Ênfase</strong> → <code>strong</code> para destacar palavras com importância, e <code>em</code> para ênfase, geralmente exibido em itálico.</li>
+                    <li><strong>Quebra de linha</strong> → <code>br</code> insere uma quebra de linha sem iniciar um novo parágrafo.</li>
+                    <li><strong>Comentários</strong> → <code>!-- comentário --</code> permite adicionar notas no código que não aparecem na página.</li>
+                </ul>
+
+    </section>
+    <section>
+    <h2 id="Imalinks">Imagens e links</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+            <p>Imagens e links são essenciais para enriquecer a experiência do usuário:</p>
+                <ul>
+                    <li><strong>Imagens</strong> → a tag <code>img</code> insere imagens, com atributos como <code>src</code> (caminho do arquivo) e <code>alt</code> (texto alternativo para acessibilidade).</li>
+                    <li><strong>Links</strong> → a tag <code>a</code> cria hiperlinks, permitindo navegar entre páginas ou sites. O atributo <code>href</code> define o destino do link.</li>
+                </ul>
+            <p>Esses elementos tornam as páginas mais visuais e interativas, facilitando a navegação e o entendimento do conteúdo.</p>
+
+
+    </section>
+
+    <section>
+
+        <h2 id="listas">Listas</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+            <P> Quando precisamos listar informações, temos duas opções principais:
+                <UL>
+                    <LI><strong>Listas ordenadas (ol) </strong>: numeradas, ideais para sequências ou rankings.</LI>
+                    <LI><strong>Listas não ordenadas (ul) </strong>: com marcadores, boas para tópicos soltos.</LI>
+                    <LI><strong>Itens de lista (li) </strong>: cada elemento individual da lista.</LI>
+
+                </UL></P>
+    
+        </section>
+
+        <SECtion>
+        <h2 id="formularios">Formulários</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+            <p>Formulários são cruciais para interatividade, permitindo que usuários enviem dados:</p>
+                <ul>
+                    <li><strong>Form (form)</strong> → envolve todo o formulário e define o método de envio (GET ou POST) e o destino dos dados.</li>
+                    <li><strong>Input (input)</strong> → cria campos de entrada variados, como texto, senha, email, checkbox, radio, entre outros.</li>
+                    <li><strong>Label (label)</strong> → associa um texto descritivo a um campo de entrada, melhorando a acessibilidade.</li>
+                    <li><strong>Textarea (textarea)</strong> → cria uma área maior para textos longos.</li>
+                    <li><strong>Select (select) e Option (option)</strong> → permitem criar listas suspensas para seleção de opções.</li>
+                    <li><strong>Button (button)</strong> → cria botões para enviar o formulário ou executar ações específicas.</li>
+                </ul>
+            <p>Essas tags facilitam a coleta de informações dos usuários, essenciais para cadastros, pesquisas e interações diversas.</p>
+
+
+        </SECtion>
+
+        <SECtion>
+
+        <h2 id="estrutura">Estruturação e layout</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+            <p>Para organizar o conteúdo e criar layouts mais complexos, o HTML5 introduziu várias tags semânticas:</p>
+                <ul>
+                    <li><strong>Header (header)</strong> → define o cabeçalho da página ou de uma seção.</li>
+                    <li><strong>Nav (nav)</strong> → agrupa links de navegação.</li>
+                    <li><strong>Main (main)</strong> → indica o conteúdo principal da página.</li>
+                    <li><strong>Section (section)</strong> → delimita seções temáticas do conteúdo.</li>
+                    <li><strong>Article (article)</strong> → representa um conteúdo independente, como um post de blog.</li>
+                    <li><strong>Aside (aside)</strong> → contém informações complementares, como barras laterais.</li>
+                    <li><strong>Footer (footer)</strong> → define o rodapé da página ou de uma seção.</li>
+                </ul>
+            <p>Essas tags ajudam a estruturar o documento de forma clara e acessível, facilitando tanto a leitura humana quanto a interpretação por máquinas, como motores de busca.</p>
+
+        </SECtion>
+
+
+    <section>
+    <h2 id="midias">Mídias integradas</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+
+            <p>Com HTML5, ficou simples adicionar sons e vídeos direto na página:</p>
+                <ul>
+                    <li><strong>Audio (audio)</strong> → toca arquivos de som, com suporte a controles básicos.</li>
+                    <li><strong>Video (video)</strong> → exibe vídeos, podendo incluir capa, legendas e diferentes formatos.</li>
+                    <li><strong>Track (track)</strong> → adiciona legendas e descrições para acessibilidade.</li>
+                </ul>
+            <p>Além disso, temos o <strong>Iframe (iframe)</strong>, que permite incorporar conteúdos externos como vídeos do YouTube e mapas do Google.</p>
+
+
+    </section>
+
+    <SEction>
+    <h2 id="semantica">Semântica e acessibilidade</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+
+            <p>Usar tags semânticas não é só uma questão de organização, mas também de acessibilidade:</p>
+                <ul>
+                    <li><strong>Div (div)</strong> → cria blocos genéricos para agrupar conteúdo, mas sem significado específico.</li>
+                    <li><strong>Span (span)</strong> → similar ao div, mas para elementos inline, útil para estilização de partes do texto.</li>
+                    <li><strong>Attributes (atributos)</strong> → como <code>id</code>, <code>class</code>, <code>title</code>, entre outros, ajudam a identificar e descrever elementos, facilitando o trabalho de leitores de tela e motores de busca.</li>
+                </ul>
+            <p>Adotar boas práticas semânticas melhora a experiência para todos os usuários, incluindo aqueles com deficiências.</p>
+
+    </SEction>
+
+    <SEction>
+    <h2 id="tabelas">Tabelas</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+            <p>Tabelas são úteis para organizar dados em linhas e colunas:</p>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+              <thead>
+                  <tr>
+                   <th>Tag</th>
+                 <th>Função</th>
+                </tr>
+             </thead>
+          <tbody>
+            <tr>
+                <td><code>table</code></td>
+                <td>Cria a tabela.</td>
+            </tr>
+         <tr>
+            <td><code>tr</code></td>
+            <td>Define linhas.</td>
+        </tr>
+        <tr>
+            <td><code>td</code></td>
+            <td>Células de dados.</td>
+        </tr>
+        <tr>
+             <td><code>th</code></td>
+              <td>Células de cabeçalho.</td>
+        </tr>
+        <tr>
+          <td><code>thead</code>, <code>tbody</code>, <code>tfoot</code></td>
+          <td>Ajudam na organização semântica.</td>
+         </tr>
+        <tr>
+           <td><code>caption</code></td>
+           <td>Adiciona uma legenda explica
+        </tr>
+        </tbody>
+        </table>
+
+    </SEction>
+
+
+    <section>
+    <h2 id="conclusao">Conclusão</h2>
+
+            <small><a href="#menu">(voltar)</a></small>
+
+            <p>O HTML é o alicerce de qualquer site. Ele nasceu com o propósito de conectar documentos e evoluiu para suportar texto, mídia, interatividade e semântica, sempre com foco em **acessibilidade e padronização.</p>
+            <p>Ao dominar suas principais tags, você ganha a base necessária para construir páginas bem estruturadas, preparadas para receber estilo com CSS e lógica com JavaScript.</p>
+
+    </section>
+
+   </MAIN>
+
+
+    <footer>
+        <h2>Rodapé</h2>
+            <p><strong>Escrito por:</strong> Victoria Vieira</p>
+            <p><strong>Aprendizado:</strong> Este conteúdo foi desenvolvido com base nos estudos realizados na <strong><a href="https://www.dio.me/">DIO (Digital Innovation One)</a></strong>.</p>
+
+<h3>Leia também:</h3>
+
+    <p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+            <font color="orange">Tecnologia Web para desenvolvedores 
+            <abbr title="Cascading Style Sheets">CSS</abbr>
+            </font>
+        </a>
+    </p>
+
+<p>
+  <a href="https://www.w3schools.com/js/DEFAULT.asp">
+    <font color="green"><del>JavaScript Básico</del> JavaScript Tutorial</font>
+  </a>
+</p>
+
+<h3>Referências úteis:</h3>
+
+<p>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+    <font color="red">MDN Web Docs - 
+      <abbr title="HyperText Markup Language">HTML</abbr>
+    </font>
+  </a>
+</p>
+
+<p>
+  <a href="https://html.spec.whatwg.org/multipage/">
+    <font color="purple">W3C - HTML Living Standard</font>
+  </a>
+</p>
+
+
+
+    <h3>Conecte-se comigo:</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/victoriavieiraf/">LinkedIn</a></li>
+      <li><a href="https://github.com/victoriavieiraf">GitHub</a></li>
+    </ul>
+
+    <p>© 2025 Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
